@@ -3,15 +3,12 @@ import styles from '../styles/Layout.module.css'
 
 const contact = () => {
     return (
-        <div className={styles.container}>
+        <div className={styles.wrapper}>
             <Head>
                 <title>Contact | Niño Jherico Cocosa</title>
             </Head>
-
-            <main className={styles.main}>
-                <h1>Contact</h1>
-                <a href="mailto:njcocosa@gmail.com">njcocosa@gmail.com</a>
-            </main>
+            <h1>Contact</h1>
+            <a href="mailto:njcocosa@gmail.com">njcocosa@gmail.com</a>
         </div>
     )
 }

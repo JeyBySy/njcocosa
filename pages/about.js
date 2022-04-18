@@ -3,16 +3,12 @@ import styles from '../styles/Layout.module.css'
 
 function about() {
     return (
-        <>
+        <div className={styles.wrapper}>
             <Head>
                 <title>About | Niño Jherico Cocosa</title>
             </Head>
-            <div className={styles.container}>
-                <main className={styles.main}>
-                    <h1>About</h1>
-                </main>
-            </div>
-        </>
+            <h1>About</h1>
+        </div>
     )
 }
 
