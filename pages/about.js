@@ -9,7 +9,7 @@ function about() {
             </Head>
 
             <main className={styles.main}>
-                asdqwdwqd
+                <a href="mailto:njcocosa@gmail.com">njcocosa@gmail.com</a>
             </main>
         </div>
     )

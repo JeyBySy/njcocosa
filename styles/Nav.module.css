@@ -1,10 +1,10 @@
 .nav {
+  background-color: #242830;
   position: fixed;
   z-index: 1;
   width: 100%;
   height: 60px;
   padding: 20px;
-  background-color: #242830;
   color: #fff;
   display: flex;
   align-items: center;
@@ -23,6 +23,7 @@
   font-weight: 600;
 }
 .avatar {
+  padding: 1.25rem;
   position: absolute;
   left: 3rem;
 }
