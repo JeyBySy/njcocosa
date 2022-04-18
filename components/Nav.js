@@ -1,11 +1,23 @@
 import styles from '../styles/Nav.module.css'
 import Link from 'next/link'
+import Image from 'next/image'
+
+const avatar_url = () => {
+    return `https://avatars.githubusercontent.com/u/67497021?v=4`
+}
 
 const Nav = () => {
     return (
         <div className={styles.nav}>
             <div className={styles.avatar}>
-                <Link href='/'>NJCOCOSA</Link>
+
+                <Image loader={avatar_url}
+                    src="https://avatars.githubusercontent.com/u/67497021?v=4"
+                    alt="Avatar Image"
+                    width={65}
+                    height={65}
+                    objectFit="fill" style={{ borderRadius: '100%', margin: '1rem' }}
+                />
             </div>
             <ul>
                 <li><Link href='/'>Home</Link></li>

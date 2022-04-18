@@ -9,7 +9,8 @@ const contact = () => {
             </Head>
 
             <main className={styles.main}>
-                Contact
+                <h1>Contact</h1>
+                <a href="mailto:njcocosa@gmail.com">njcocosa@gmail.com</a>
             </main>
         </div>
     )

@@ -3,15 +3,16 @@ import styles from '../styles/Layout.module.css'
 
 function about() {
     return (
-        <div className={styles.container}>
+        <>
             <Head>
                 <title>About | Niño Jherico Cocosa</title>
             </Head>
-
-            <main className={styles.main}>
-                <a href="mailto:njcocosa@gmail.com">njcocosa@gmail.com</a>
-            </main>
-        </div>
+            <div className={styles.container}>
+                <main className={styles.main}>
+                    <h1>About</h1>
+                </main>
+            </div>
+        </>
     )
 }
 
