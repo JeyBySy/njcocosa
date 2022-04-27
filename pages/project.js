@@ -17,7 +17,6 @@ const project = ({ projects }) => {
             </div>
             <ProjectLists projects={projects} />
         </div>
-
     )
 }
 
@@ -27,7 +26,6 @@ export const getStaticProps = async () => {
     const res = await fetch('https://api.github.com/users/JeyBySy/repos')
     // const res = await fetch('https://ghibliapi.herokuapp.com/films')
     const projects = await res.json()
-
     return {
         props: {
             projects
