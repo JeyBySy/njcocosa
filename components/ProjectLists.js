@@ -2,7 +2,6 @@ import css from '../styles/Project.module.css'
 
 
 const ProjectLists = ({ projects }) => {
-    console.log(projects)
     return (
         <section className={css.card_wrapper}>
             {projects.map((project) => (
